@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <title>Asset Register Entry</title>
+      <!-- add icon link -->
+              <link rel="shortcut icon" type="image/x-icon" href="assets/img/falcon.png">
+  </head>
+<body>
+    <div class="container">
+
+            <div class="d-flex justify-content-center">
+                <img src="assets/img/LWC_Logo.png" height="20%" width="20%" alt="Responsive image" >
+            </div>
+            <br>
+            
+            <h1 text-align=center>Asset Register Entry</h1>
+            
+            
+            <br>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <label for="item">Item:</label>
+                        <input id="id_application_method_name" onchange="checkFilledname();" type="text" name="item" minlength="4" maxlength="40" class="form-control" required="required" placeholder="Item">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="form-group">
+                        <label for="item">Category:</label>
+                        <select class="form-control"  name="category" id="id_application_method_mFitting" onchange="checkFilledmFitting();" required="required">
+                            <option value="">-Select-</option>
+                            <option value="Electronics - Fixed">Electronics - Fixed</option>
+                            <option value="Electronics - Portable">Electronics - Portable</option>
+                            <option value="Furniture & Fittings">Furniture & Fittings</option>
+                            <option value="Housekeeping">Housekeeping</option>
+                            <option value="Kitchen - Equipment">Kitchen - Equipment</option>
+                            <option value="Kitchen - Supplies">Kitchen - Supplies</option>
+                            <option value="Medical - Equipment">Medical - Equipment</option>
+                            <option value="Office - Equipment">Office - Equipment</option>
+                            <option value="Office - Supplies">Office - Supplies</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="form-group">
+                        <label for="location">Location:</label>
+                        <input id="id_application_method_name" onchange="checkFilledname();" type="text" name="location" minlength="3" maxlength="40" class="form-control" required="required" placeholder="Location">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="form-group">
+                        <label for="serialNo">Serial No:</label>
+                        <input id="id_application_method_name" onchange="checkFilledname();" type="text" name="serialNo" minlength="3" maxlength="40" class="form-control" placeholder="Serial No">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="form-group">
+                        <label for="purchaseDate">Date of Purchase:</label>
+                        <input id="id_application_method_name" onchange="checkFilledname();" type="date" name="purchaseDate" minlength="3" maxlength="15" class="form-control" required="required" placeholder="Purchase Date">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="form-group">
+                        <label for="purchasePrice">Purchase Price:</label>
+                        <input id="id_application_method_name" onchange="checkFilledname();" type="number" name="purchasePrice" minlength="3" maxlength="15" class="form-control" required="required" placeholder="Purchase Price">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="form-group">
+                        <label for="allocatedTo">Allocated To:</label>
+                        <input id="id_application_method_name" onchange="checkFilledname();" type="text" name="allocatedTo" minlength="3" maxlength="40" class="form-control" required="required" placeholder="Allocated To">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="form-group">
+                        <label for="allocatedDate">Date Allocated:</label>
+                        <input id="id_application_method_name" onchange="checkFilledname();" type="date" name="allocatedDate" minlength="3" maxlength="15" class="form-control" required="required" placeholder="Date Allocated">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="form-group">
+                        <label for="returnDate">Date Returned:</label>
+                        <input id="id_application_method_name" onchange="checkFilledname();" type="date" name="returnDate" minlength="4" maxlength="12" class="form-control" placeholder="Date Returned">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            
+            <br> 
+            <button type="button" class="btn btn-danger">Cancel</button>
+                      
+            <button type="button" class="btn btn-success">Save</button>
+            <br>
+            <br>    
+            <br>
+            <br>
+      </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
